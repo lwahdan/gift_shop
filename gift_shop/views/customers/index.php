@@ -6,7 +6,7 @@ $dir = '../public/images/product/';
 
 require_once 'controllers/ProductController.php';
 require_once 'controllers/CategoryController.php';
-
+// test
 
 // $productController = new ProductController();
 // $products = $productController->productModel->all();
