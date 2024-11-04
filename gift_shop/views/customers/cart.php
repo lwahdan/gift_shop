@@ -65,7 +65,7 @@
             <td class="product_quantity">
     <input type="number" class="quantity-input" value="<?php echo $item['quantity']; ?>" min="1" data-price="<?php echo $item['price']; ?>" data-id="<?php echo $item['id']; ?>">
 </td>
-<td class="product_total" id="total-<?php echo $item['id']; ?>">$<?php echo number_format($item['price'] * $item['quantity'], 2); ?></td>
+<td uyclass="product_total" id="total-<?php echo $item['id']; ?>">$<?php echo number_format($item['price'] * $item['quantity'], 2); ?></td>
 
         </tr>
     <?php endforeach; ?>
