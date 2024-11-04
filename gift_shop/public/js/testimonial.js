@@ -158,7 +158,7 @@ document.querySelectorAll('.add-to-cart-form').forEach(form => {
         .then(response => response.json())
         .then(data => {
             if (data.success) {
-                // alert('Item added to cart successfully!');
+                 alert('Item added to cart successfully!');
 
                 // Update cart icon count dynamically
                 document.getElementById('cart-count').textContent = data.cartCount;

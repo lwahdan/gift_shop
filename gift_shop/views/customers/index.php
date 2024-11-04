@@ -1,7 +1,7 @@
 
 <?php require_once 'views/partials/header.php';
 //  require_once 'config/db.php'; 
-
+//test
 $dir = '../public/images/product/';
 
 require_once 'controllers/ProductController.php';
